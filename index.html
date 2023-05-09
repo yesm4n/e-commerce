@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce</title>
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+  <!-- NAVBAR -->
+
+  <div class="grip">
+    <div class="container">
+      <nav class="navbar">
+        <div class="brand-title">
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+
+        <div class="navbar-links">
+          <li><a href="#"></a>Collections</li>
+          <li><a href="#"></a>Men</li>
+          <li><a href="#"></a>Women</li>
+          <li><a href="#"></a>About</li>
+          <li><a href="#"></a>Contact</li>
+        </div>
+        <div class="navbar-img">
+          <img class="cart" src="images/icon-cart.svg" alt="cart" />
+          <span class="cart-items">0</span>
+          <img class="avatar" src="images/image-avatar.png" alt="avatar" />
+        </div>
+      </nav>
+      <hr class="navbar-hr" />
+
+      <!-- Hidden cart items -->
+
+      <div class="cart-items-full">
+        <h4>Cart</h4>
+        <hr />
+        <div class="cart-items-flex">
+          <img class="thumbnail-img-small" src="images/image-product-1-thumbnail.jpg" alt="sneakers promo" />
+          <div>
+            <p>Fall Limited Edition Speakers</p>
+            <p class="price-tag bold"></p>
+          </div>
+          <img class="btn-delete" src="images/icon-delete.svg" alt="delete items" />
+        </div>
+        <div class="flex">
+          <button class="btn btn-shop">Checkout</button>
+        </div>
+      </div>
+      <div class="cart-items-empty">
+        <h4>Cart</h4>
+        <hr />
+        <p>Your cart is empty.</p>
+      </div>
+    </div>
+
+    <!-- Images / Main content -->
+
+    <!-- IMG -->
+
+    <div class="main">
+      <div class="intro">
+        <div class="img-container">
+          <img class="img-main" src="images/image-product-1.jpg" alt="sneakers main" />
+          <div class="img-thumbnail">
+            <img class="img-thumbnail-1 img" src="images/image-product-1-thumbnail.jpg" alt="sneakers" />
+            <img class="img-thumbnail-2 img" src="images/image-product-2-thumbnail.jpg" alt="sneakers" />
+            <img class="img-thumbnail-3 img" src="images/image-product-3-thumbnail.jpg" alt="sneakers" />
+            <img class="img-thumbnail-4 img" src="images/image-product-4-thumbnail.jpg" alt="sneakers" />
+          </div>
+        </div>
+
+        <!-- Text -->
+
+        <div class="text-container">
+          <p class="text-intro">Sneakers Company</p>
+          <h1>Fall limited edition sneakers</h1>
+          <p class="text-paragraph">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they'll withstand
+            everything the weather can offer.
+          </p>
+
+          <div class="flex">
+            <p class="price-now">$125.00 <span class="discount">50%</span></p>
+            <p class="price-previous">$250.00</p>
+          </div>
+
+          <div class="text-shop">
+            <div class="add-remove-items">
+              <img class="minus" src="images/icon-minus.svg" alt="minus" />
+              <p class="number-of-items">0</p>
+              <img class="plus" src="images/icon-plus.svg" alt="plus" />
+            </div>
+            <button class="btn btn-shop btn-add-to-cart">
+              <svg class="svg-white" width="22" height="20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                  fill="#fff" fill-rule="nonzero" />
+              </svg>Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
